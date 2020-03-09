@@ -5,7 +5,6 @@ mvn clean package
 projectLocation="/home/ubuntu/projects"
 dockerName="eurekaserver"
 dockerPort="9000"
-# dockerJarVolumn="/home/ubuntu/.jenkins/workspace/wechat_public_access/target/public_access-1.0.jar"
 dockerJarVolumn=${projectLocation}/${dockerName}/jar
 
 mkdir ${projectLocation}/${dockerName}
